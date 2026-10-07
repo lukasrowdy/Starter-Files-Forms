@@ -11,6 +11,27 @@
   <main class="container">
 
     <h1>Advising Appointment</h1>
+    <form action="thankyou.html" method="post">
+
+    <fieldset>  
+      <legend>Contact Information</legend>
+      <label for="firstName">Enter your name:</label>
+      <input type="text" name="firstname" id="firstName" required placeholder="Put Your Name Here" autofocus>
+    
+      <label for="Email">Enter your email:</label>
+      <input type="email" name="Email" id="Email" required placeholder="Put Your Email Here">
+    
+    </fieldset>  
+
+      <select name="apptType" id="apptType">
+        <option value="email">Email</option>
+        <option value="text">Text Message</option>
+        <option value="owl">Owl</option>
+      </select>
+
+      <input type="submit" value="Submit">
+
+    </form>
 
   </main>
 </body>
